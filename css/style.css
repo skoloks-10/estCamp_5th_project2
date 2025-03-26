@@ -1,0 +1,383 @@
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+@font-face {
+    font-family: 'Spoqa Han Sans Neo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    display: gird;
+    justify-content: center;
+    align-items: center;
+}
+body,section,article,footer{
+    width: 100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    background-color: #F2E9D8;
+    display: flex;
+    justify-content:space-between;
+    position:sticky;
+    top:0;
+    padding:50px;
+}
+header img{
+    width: auto;
+    height: auto;
+    
+}
+header nav a{
+    color: #000;
+font-family: "Spoqa Han Sans Neo";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line:none;
+margin-right:70px;
+}
+header nav a:last-child{
+    display:inline-block;
+    width: 140px;
+    height: 50px;
+    border-radius: 40px;
+    background: #D97652;
+    color: #FFF;
+    line-height: 50px;
+}
+.hero{
+    background-color: #F2E9D8;
+    width: auto;
+    height: auto;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+    font-style: normal;
+    line-height: normal;
+    grid-auto-rows: minmax(auto,auto );
+    box-sizing: border-box;
+    padding: 0 50px;
+    gap:40px;
+    margin-bottom: 80px;;
+    grid-template-areas: 
+    'p1 img'
+    'p2 img'
+    'a img'
+    
+}
+.hero p:nth-child(1){
+    font-size: 40px;
+    height:1%;
+    font-weight: 700;
+    grid-area: p1;
+    text-align: left;
+    margin-bottom:0;
+}
+.hero p:nth-child(2){
+    width:50%;
+    font-size: 16px;
+    font-weight: 400;
+    grid-area: p2;
+    text-align: left;
+    margin-top:0;
+    margin-bottom:5px;
+}
+.hero a{
+    width: 140px;
+    height:auto;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #D97652;
+    text-decoration-line:none;
+    line-height: 50px;
+    color:#fff;
+    text-align: center;
+    font-size:16px;
+    font-weight:700;
+    grid-area: a;
+    margin-top:0px;;
+}
+.hero img{
+    width: auto;
+    height: auto;
+    grid-area: img;
+}
+.cat-main{
+    width: auto;
+    height: auto;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+    font-style: normal;
+    line-height: normal;
+    grid-auto-rows: minmax(auto,auto );
+    box-sizing: border-box;
+    padding: 0 50px;
+    gap:40px;
+    margin-bottom: 80px;;
+    
+}
+.cat-gallery{
+    width: auto;
+    height: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+    font-style: normal;
+    line-height: normal;
+    grid-auto-rows: minmax(auto,auto );
+    box-sizing: border-box;
+    padding: 0 50px;
+    gap:40px;
+    margin-bottom: 80px;;
+}
+.gallery-cat1{
+    grid-column: 1/2;
+    grid-row:1/3;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+}
+.gallery-cat2, .gallery-cat3, .gallery-cat4{
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 100%;
+}
+
+.cat-main :nth-child(2){
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    grid-column: 2/3;
+}
+.cat-main :nth-child(3), .cat-gallery :nth-child(5){
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cat-main :nth-child(3){
+    grid-column: 2/3;
+}
+.cat-main :nth-child(4){
+    color: #D97652;
+    text-align: center;
+    font-family: "Spoqa Han Sans Neo";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    grid-column: 1/4;
+}
+.cat-main :nth-child(5){
+    grid-column: 1/3;
+}
+.cat-main  span{
+    color: #D97652;
+    font-family: "Spoqa Han Sans Neo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.cat-gallery-description{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    width: 100%;
+    height: 100%;
+    justify-content:center;
+}
+.cat-gallery-description :nth-child(1){
+    color: #000;
+    font-family: "Spoqa Han Sans Neo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 739px;
+}
+.cat-gallery-description :nth-child(2){
+    padding: 15px 29px;
+    gap: 10px;
+    border-radius: 40px;
+    background: #D97652;
+    text-decoration-line: none;
+    color: #FFF;
+    text-align: center;
+    font-family: "Spoqa Han Sans Neo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-self: center;
+}
+.SubScribe-box{
+    position:relative;
+    overflow: visible;
+    margin:0 auto;
+    overflow: hidden;
+    margin:50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 30px;
+    background: #263140;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;    
+    width:90%;
+}
+.SubScribe-box :nth-child(1){
+    max-width: 466px;
+    height: 1rem;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Spoqa Han Sans Neo";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    margin:10px;
+}
+.SubScribe-box :nth-child(2){
+    max-width: 466px;
+    color: #F2E9D8;
+    font-family: "Spoqa Han Sans Neo";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin:10px;
+}
+article{
+    position: relative;
+}
+article img:nth-of-type(1){
+    width:100%;
+    height:100%;
+    z-index: -1;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    object-fit: cover;
+    object-position: center;
+    
+}
+article img:nth-of-type(2){
+    
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    z-index: 2;
+    position: absolute;
+    right:0;
+    top: 50px;
+}
+.email-box{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    border-radius: 60px;
+    background: #FFF;
+    width: 530px;
+    height: 60px;
+    display:flex;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left:50px;
+    padding: 0 5px 0 15px;
+}
+.email-box img{
+    margin: 0 10px 0 5px;
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+.email-box input{
+    width: 100%;
+    flex:1;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    background: #FFF;
+    font-family: "Spoqa Han Sans Neo";
+    color:black;
+}
+.email-box a{
+    padding: 15px 29px;
+    border-radius: 40px;
+    background: #D97652;
+    color: #FFF;
+    text-align: center;
+    font-family: "Spoqa Han Sans Neo";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: none;
+    margin-left: auto;
+}
+.footer-content{
+    display:flex;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding:20px;
+}
+footer img:nth-child(1){
+    width: 226px;
+    height: 70px;
+}
+footer img:nth-child(2){
+    margin-left:400px;
+}    
+footer :not(:first-child){
+    background-color: #F29D52;
+    object-fit:cover;
+    border-radius: 50%;
+    height: 40px;
+    width:40px;
+    margin-left: 20px;
+}
+
+
