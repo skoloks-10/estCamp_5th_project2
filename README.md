@@ -6,9 +6,9 @@ HTML과 CSS를 사용하여 제작했습니다.
 
 ## 🛠️ 사용 기술
 
-[](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+HTML5
 
-[](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+CSS3
 
 ## ✨ 주요 기능
 
@@ -23,23 +23,23 @@ https://skoloks-10.github.io/estCamp_5th_project2/
 
 # 전체페이지
 
-![Screenshot 2025-03-27 at 13.31.21.JPG](attachment:62a64739-929d-41cf-9ac4-e6a3d0eeb44f:Screenshot_2025-03-27_at_13.31.21.jpg)
+![Image](https://github.com/user-attachments/assets/9925631e-dd1f-4fba-986b-b4c00073bfec)
 
 # 모바일화면
 
-![Screenshot 2025-03-27 at 13.34.09.JPG](attachment:54a18a65-f2ca-4ca8-a176-5e99a1bd8877:686ee9ab-f775-49a1-aca2-d567060bb559.png)
+![Image](https://github.com/user-attachments/assets/3b116d1b-810c-4577-aa5a-d0b6af4db3e5)
 
 # 모달전체화면
 
-![Screenshot 2025-03-27 at 13.32.10.JPG](attachment:cb5f3706-759b-4271-88db-2211616cd427:Screenshot_2025-03-27_at_13.32.10.jpg)
+![Image](https://github.com/user-attachments/assets/1dd0d4e5-d94c-405d-9418-fe82272e67b2)
 
 # 모달모바일화면
 
-![Screenshot 2025-03-27 at 13.32.23.JPG](attachment:a1a6c3ac-68d1-4917-b678-a58ef1de893b:Screenshot_2025-03-27_at_13.32.23.jpg)
+![Image](https://github.com/user-attachments/assets/0c9a457e-6ee7-42ff-968f-aca78760b7a6)
 
 # 메뉴화면
 
-![Screenshot 2025-03-27 at 13.33.18.JPG](attachment:125722b5-b271-4c57-84bb-33a1434f4975:Screenshot_2025-03-27_at_13.33.18.jpg)
+![Image](https://github.com/user-attachments/assets/f6bb5d77-a598-4b25-80ea-b445ac126610)
 
 ## 📋 프로젝트 구조
 
